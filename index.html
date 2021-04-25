@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/tetris.js"></script>
+</head>
+<body>
+<!-- рисуем поле для игры -->
+<canvas width="320" height="640" id="game" class="game"></canvas>
+<div class="difficulty">
+    <h3>Сложность:</h3>
+    <select id="difficulty">
+        <option value="1">Легко</option>
+        <option value="2">Средне</option>
+        <option value="3">Сложно</option>
+        <option value="4">Тест</option>
+    </select>
+</div>
+<br>
+<input class="button" type="button" onclick="gameStart()" value="Начать">
+<br>
+<input class="button" type="button" onclick="restart()" value="Перезапуск">
+<canvas class="score" id="score"></canvas>
+
+<script>
+    const canvas = document.getElementById('game');
+    const context = canvas.getContext('2d');
+
+    const grid = 32;
+
+    const canvasScore = document.getElementById('score');
+    const contextScore = canvasScore.getContext('2d');
+
+    let score = 0;
+    let record = 0;
+    let level = 1;
+    let recordName = '';
+
+    var Storage_size = localStorage.length;
+    if (Storage_size > 0) {
+        record = localStorage.record;
+        recordName = localStorage.recordName;
+    }
+
+    name = prompt("Ваше имя", "");
+
+    // массив с последовательностями фигур, на старте — пустой
+    var tetrominoSequence = [];
+
+
+    var playfield = [];
+    for (let row = -2; row < 20; row++) {
+        playfield[row] = [];
+        for (let col = 0; col < 10; col++) {
+            playfield[row][col] = 0;
+        }
+    }
+    // формы для каждой фигуры
+    let tetrominos = {
+        'I': [
+            [0,0,0,0],
+            [1,1,1,1],
+            [0,0,0,0],
+            [0,0,0,0]
+        ],
+        'J': [
+            [1,0,0],
+            [1,1,1],
+            [0,0,0],
+        ],
+        'L': [
+            [0,0,1],
+            [1,1,1],
+            [0,0,0],
+        ],
+        'O': [
+            [1,1],
+            [1,1],
+        ],
+        'S': [
+            [0,1,1],
+            [1,1,0],
+            [0,0,0],
+        ],
+        'Z': [
+            [1,1,0],
+            [0,1,1],
+            [0,0,0],
+        ],
+        'T': [
+            [0,1,0],
+            [1,1,1],
+            [0,0,0],
+        ],
+        'U': [
+            [1,0,1],
+            [1,0,1],
+            [1,1,1],
+        ],
+        'Jo': [
+            [0,0,1],
+            [0,0,1],
+            [1,1,1],
+        ],
+        'Dot':[
+            [0,1,0],
+        ],
+        'inclined':[
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0],
+            [0,0,0,1],
+        ],
+        'Big square':[
+            [1,1,1],
+            [1,1,1],
+            [1,1,1],
+        ]
+    };
+
+    let difficulty = document.getElementById('difficulty').textContent;
+    let availableFigures = [];
+    const colors = { 'I': 'cyan', 'O': 'yellow', 'T': 'purple', 'S': 'green', 'Z': 'red', 'J': 'blue', 'L': 'orange',
+        'U': 'grey', 'Jo':'magenta', 'Dot': 'grey', 'inclined': 'cyan', 'Big square':'yellow'};
+    let count = 0;
+    let gameOver = false;
+    let fig;
+    let tetromino;
+    let rAF = null;
+
+
+</script>
+
+<script>
+
+</script>
+
+</body>
+</html>

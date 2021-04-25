@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="004647bc-ec5a-43af-987a-b82879672301" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1psWPuO7mibuauVF8R1vqfFVInj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../Program Files (x86)/Node/node" />
+    <property name="nodejs_package_manager_path" value="D:\Program Files (x86)\Node\node_modules\npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="004647bc-ec5a-43af-987a-b82879672301" name="Default Changelist" comment="" />
+      <created>1615972257876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615972257876</updated>
+      <workItem from="1615972258929" duration="497000" />
+      <workItem from="1615980350648" duration="6630000" />
+      <workItem from="1616015838667" duration="569000" />
+      <workItem from="1616396861612" duration="648000" />
+      <workItem from="1616576359485" duration="280000" />
+      <workItem from="1616584590156" duration="8534000" />
+      <workItem from="1616669069596" duration="853000" />
+      <workItem from="1617187994725" duration="1709000" />
+      <workItem from="1617193393624" duration="72000" />
+      <workItem from="1617779218784" duration="2628000" />
+      <workItem from="1617793860381" duration="868000" />
+      <workItem from="1617800813217" duration="76000" />
+      <workItem from="1619348360549" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1616669707787">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1616669707787" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1616669932415">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1616669932415" />
+    <state x="400" y="177" key="jetbrains.nodejs.interpreters-dialog" timestamp="1616669461852">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="400" y="177" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.738@0.0.1366.738" timestamp="1616669461852" />
+  </component>
+</project>
